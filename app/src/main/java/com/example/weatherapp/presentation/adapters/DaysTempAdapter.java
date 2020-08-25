@@ -70,8 +70,6 @@ public class DaysTempAdapter extends RecyclerView.Adapter<DaysTempAdapter.DaysTe
             daysImTempState.setImageResource(models.getImageTempState());
             tempUp.setText(models.getTempUp());
             tempDown.setText(models.getTempDown());
-
-
         }
     }
 }
